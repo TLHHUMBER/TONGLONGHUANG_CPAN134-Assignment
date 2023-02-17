@@ -7,15 +7,20 @@
     <title>Tonglong Huang CPAN134 PROJECT PART1</title>
   </head>
   <style>
-    body {
-      font-family: Arial, Helvetica, sans-serif;
-      background-color: rgb(168, 243, 168);
-    }
-    .rickastley {
-      width: 300px;
-      height: 300px;
-      object-fit: cover;
-    }
+        body {
+          font-family: Arial, Helvetica, sans-serif;
+          background-color: rgb(168, 243, 168);
+        }
+        .rickastley {
+          width: 300px;
+          height: 300px;
+          object-fit: cover;
+        }
+        .albumTable, td, tr {
+          border: 1px solid black;
+          border-collapse: collapse;
+        }
+    =
   </style>
 
   <center>
@@ -51,24 +56,36 @@
       class="rickastley"
     />
     <p>Here are some statistics on Rick Astley's TOP 5 album sales:</p>
-    <table>
-      <thead>
-        <tr>
-          <th>Album Name</th>
-        </tr>
-        <tr>
-          <th>Year Released</th>
-        </tr>
-        <tr>
-          <th>Sales</th>
-        </tr>
-      </thead>
+    <table style="width: 30%" class="albumTable">
       <tr>
-        <th>WHENEVER YOU NEED SOMEBODY(1987)</th>
-        <th>HOLD ME IN YOUR ARMS 1988</th>
-        <th>50(2016</th>
-        <th>FREE(1991)</th>
-        <th>GREATEST HITS(2002)</th>
+        <th>Album Name</th>
+        <th>Years Released</th>
+        <th>Sales</th>
+      </tr>
+      <tr>
+        <td>WHENEVER YOU NEED SOMEBODY</td>
+        <td>1987</td>
+        <td>5,154,230</td>
+      </tr>
+      <tr>
+        <td>HOLD ME IN YOUR ARMS</td>
+        <td>1988</td>
+        <td>1,618,950</td>
+      </tr>
+      <tr>
+        <td>50</td>
+        <td>2016</td>
+        <td>300,00</td>
+      </tr>
+      <tr>
+        <td>FREE</td>
+        <td>1991</td>
+        <td>211,820</td>
+      </tr>
+      <tr>
+        <td>GREATEST HITS</td>
+        <td>2002</td>
+        <td>100,000</td>
       </tr>
     </table>
   </center>
