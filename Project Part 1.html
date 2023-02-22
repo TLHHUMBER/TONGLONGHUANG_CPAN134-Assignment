@@ -28,6 +28,7 @@
     
   </center>
   <body>
+  <div class="navigation">
     <center>
       <a href="Project Part 1.html">Home</a>
       <a href="resume.html">Resume</a>
@@ -35,7 +36,7 @@
       <a href="contact.html">Contact</a>
       <h2>Welcome to the Rick Astley Project</h2>
     </center>
-
+  </div>
   <center>
     <h3>Introduction</h3>
     <p>
@@ -44,6 +45,7 @@
       in class.
     </p>
     <p>First off, please enjoy this music and a picture of Rick Astley:</p>
+    <div class="rickMedia">
     <audio controls autoplay>
       <source
         src="music/Never Gonna Give You Up Original.mp3"
@@ -56,8 +58,12 @@
       alt="Picture of Rick Astley"
       class="rickastley"
     />
-
+    <br>
+    <p>This is a music video from Rick himself</p>
+    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" width="560" height="315" title="A YouTube video" frameborder="0" allowfullscreen></iframe>
+  </div>
     <p>Here are some statistics on Rick Astley's TOP 5 album sales:</p>
+   <div class="albumtables">
     <table style="width: 30%" class="albumTable">
       <tr>
         <th>Album Name</th>
@@ -89,8 +95,20 @@
         <td>2002</td>
         <td>100,000</td>
       </tr>
-   
-    </table>  
+    </div>
+    </table> 
+    <div class="checkboxes">
+    <form>
+      <input type="checkbox" id="fan" name="fan" value="Fan">
+      <label for="fan">Are you a Rick Astley Fan?</label>
+      <br>
+      <input type="checkbox" id="listened" name="listened" value="Listened">
+      <label for="listened">Have you listened to any of his songs?</label>
+      <br>
+      <input type="checkbox" id="albumbuyer" name="albumbuyer" value="Albumbuyer">
+      <label for="fan">Have you ever bought his albums?</label>
+    </form>
+    </div>
  </body>
   </center>
 </html>
