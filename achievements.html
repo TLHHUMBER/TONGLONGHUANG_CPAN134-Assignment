@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rick's Achievements</title>
+    <link rel="stylesheet" href="style1.css" />
+    <script src="darkmode.js"></script>
+    <button id="dark-light" onclick="toggleMode()">Dark Mode</button>
+  </head>
+
+  <body>
+    <center>
+      <h1 class="pageTitle">Rick's Achievements</h1>
+    </center>
+    <nav class="navigation">
+      <center>
+        <h4>
+          <a href="Project Part 1.html">Home</a>
+          <a href="about.html">About Me</a>
+          <a href="achievements.html">Rick's Achievements</a>
+          <a href="music.html">Music</a>
+          <a href="resume.html">Portfolio</a>
+          <a href="contact.html">Contact</a>
+        </h4>
+      </center>
+    </nav>
+    <center>
+      
+      <h3>Here are some statistics on Rick Astley's TOP 5 album sales</h3>
+      <div class="album-tables">
+        <table style="width: 30%" class="albumTable">
+          <tr>
+            <th>Album Name</th>
+            <th>Years Released</th>
+            <th>Sales</th>
+          </tr>
+          <tr>
+            <td>WHENEVER YOU NEED SOMEBODY</td>
+            <td>1987</td>
+            <td>5,154,230</td>
+          </tr>
+          <tr>
+            <td>HOLD ME IN YOUR ARMS</td>
+            <td>1988</td>
+            <td>1,618,950</td>
+          </tr>
+          <tr>
+            <td>50</td>
+            <td>2016</td>
+            <td>300,00</td>
+          </tr>
+          <tr>
+            <td>FREE</td>
+            <td>1991</td>
+            <td>211,820</td>
+          </tr>
+          <tr>
+            <td>GREATEST HITS</td>
+            <td>2002</td>
+            <td>100,000</td>
+          </tr>
+        </table>
+      </div>    
+      
+      <div class="dropdown">
+      <button id="dropButton" class="dropButton">CLICK ME!!</button>
+      <div id="dropdownContent" class="dropdownContent">
+        <p>In 2008, Rick Astley's "Never Gonna Give You Up" experienced a resurgence in popularity thanks to the internet phenomenon known as "rickrolling". The trend started when a group of online users began tricking others into clicking on links that led them to the music video for the song, instead of the intended content. The prank quickly went viral, and soon millions of people around the world were being "rickrolled" on a regular basis. The song became a cultural phenomenon, with people using it as a joke in everything from advertisements to political campaigns. Even Astley himself has embraced the meme, and has performed the song live and even rickrolled an entire Macy's Thanksgiving Day Parade in 2008. In short, "rickrolling" became a global phenomenon that showed the power of the internet to create and spread memes that can capture the attention of millions of people worldwide.</p>
+      </div>
+    </div>
+
+    </center>
+
+    <script>
+
+    var button = document.getElementById("dropButton");
+    var paragraph = document.getElementById("dropdownContent");
+    paragraph.style.display = "none";
+    button.addEventListener("click", function() {
+ 
+    if (paragraph.style.display === "none") {
+    paragraph.style.display = "block";
+  }
+  else {
+    paragraph.style.display = "none";
+  }
+});
+    </script>
+
+  </body>
+
+
+  <footer class="trademark">
+    <div class="copyright">
+      <p>&copy;TONG LONG HUANG 2023. All rights reserved.</p>
+    </div>
+</html>

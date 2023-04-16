@@ -1,0 +1,32 @@
+
+      .general{
+        font-family: Arial, Helvetica, sans-serif;
+     }
+
+      #Title {
+        font-style: italic;
+        color: orange;
+        text-shadow: 2px 2px 0px black;   
+      }
+      #W {
+        font-size: 2em;
+      }
+      #pumpkin {
+        float: left;
+      }
+
+      a:visited{
+        color: black;
+      }
+
+      a:hover{
+        color: green;
+      }
+
+      a{
+        color:orange
+      }
+      .bold{
+        font-weight: bold;
+      }
+      

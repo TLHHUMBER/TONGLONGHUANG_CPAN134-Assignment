@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Holiday Images</title>
+		<a href="../resume.html">Back to Project</a>
+		<br />
+		<br />
+	</head>
+	<body>
+		<button
+			type="button"
+			id="halloweenButton"
+			onclick="display('halloween.png')"
+		>
+			Halloween
+		</button>
+		<button
+			type="button"
+			id="christmasButton"
+			onclick="display('christmas.png')"
+		>
+			Christmas
+		</button>
+		<button type="button" id="easterButton" onclick="display('easter.png')">
+			Easter
+		</button>
+
+		<br />
+		<br />
+		<img id="images" src="images.png" width="200" height="200" />
+
+		<script>
+			var $ = function (id) {
+				return document.getElementById(id);
+			};
+			function display(imgSrc) {
+				$("images").src = imgSrc;
+			}
+		</script>
+	</body>
+</html>
